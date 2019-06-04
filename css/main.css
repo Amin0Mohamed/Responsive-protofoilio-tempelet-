@@ -1,0 +1,420 @@
+@charset "utf-8";
+/**********global********************/
+ @media (max-width: 575.98px) {
+}
+ @media (min-width: 576px) and (max-width: 767.98px) {
+}
+ @media (min-width: 768px) and (max-width: 991.98px) {
+}
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+}
+ @media (min-width: 1200px) {
+}
+/**********global********************/
+ * {
+    box-sizing: border-box;
+    transition: all 1s ease-in-out;
+}
+body {
+     padding:0px;
+     margin: 0px;
+     height: 2000px;
+}
+/*******************start nav*******************************/
+.navbar {
+    background-color: #3db4d8;
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+}
+ .imgmy {
+    border-radius: 50%;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgba(247, 244, 244,1);
+     padding-right: 2.5rem;
+}
+ .navbar-light .navbar-nav .active>.nav-link:hover {
+     color: rgba(247, 244, 244,0.5);
+}
+ .navbar-light .navbar-brand {
+     color: rgba(255, 252, 252, 1);
+}
+/*******************end nav*******************************/
+/*******************start home******************************/
+ #home {
+    width: 100%;
+     height: auto;
+     background: url(../images/assss.jpg) no-repeat fixed;
+     background-size: cover;
+}
+#home .container {
+    padding-bottom: 30px;
+}
+#home .cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4)
+}
+ .art {
+     padding: 1rem;
+     margin-top: 5rem;
+    border: 8px solid #fff;
+}
+ .art h1{
+    font: 900 40px 'Acme', sans-serif;
+    color: #fff;
+    }
+.btn {
+    margin: 30px;
+    border: 1px solid #3db4d8;
+}
+ .btn a{
+    text-decoration:none;
+    color:#fff;
+    padding:5px;
+}
+ @media (max-width: 575.98px) {
+     .art {
+         padding: 0.5rem;
+         margin-top: 1rem;
+         border:5px solid #fff;
+    }
+     .art h1{
+         font-weight: 500 40px 'Acme', sans-serif;
+         color: #fff;
+    }
+}
+/*******************end home*******************************/
+/*******************start about*******************************/
+#about {
+    padding: 50px 0px;
+}
+ #about h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+ #about h2 span {
+    color: #3db4d8;
+}
+ #about .phone {
+    height:400px;
+    width:80%;
+}
+ #about .phone img {
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     padding: 3px;
+     background-color: #f9f5f0;
+     box-shadow:0px 0px 5px 3px #999999;
+     opacity: 0.5;
+}
+ #about .phone img:hover{
+    opacity: 1;
+}
+ #about .details h3 {
+    margin-bottom: 0.3rem;
+    margin-top: 30px;
+}
+ #about .details .pp {
+    display: block;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+ #about .details p {
+    margin-top: 0px;
+    color: #ccc;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ #about .meadia {
+     padding:10px;
+     margin-top: 30px;
+     display:flex;
+     justify-content: center;
+}
+ #about .meadia ul {
+     list-style:none;
+     list-style-position:outside;
+}
+ #about .meadia ul li {
+     display: inline-block;
+     padding: 5px;
+     margin-left: 20px;
+}
+ #about .meadia ul li a i {
+     border:1px solid #3db4d8;
+     font-size:25px;
+     padding:20px;
+     color:#3db4d8;
+}
+ #about .meadia ul li a i:hover{
+    background-color:#3db4d8;
+    color:#fff;
+    border:none;
+}
+ @media (max-width: 575.98px) {
+     #about .phone{
+        height:300px;
+        width:100%;
+    }
+     #about .phone img {
+        width:100%;
+         height:100%;
+         border-radius:50%;
+         padding:3px;
+         background-color:#f9f5f0;
+         box-shadow:0px 0px 5px 3px #999999;
+         opacity:0.5;
+    }
+     #about .meadia{
+        padding:0px;
+        margin-top: 15px;
+        display:flex;
+        justify-content: center;
+    }
+     #about .meadia ul{
+        list-style:none;
+    }
+     #about .meadia ul li{
+        display:inline-block;
+        margin-left:5px;
+    }
+     #about .meadia ul li a i{
+        border:1px solid #3db4d8;
+        font-size:18px;
+        padding:10px;
+         color:#3db4d8;
+    }
+}
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     #about .phone{
+        height:500px;
+        width:100%;
+    }
+     #about .phone img {
+        width:100%;
+         height:100%;
+         border-radius:10%;
+         padding:3px;
+         background-color:#f9f5f0;
+         box-shadow:0px 0px 5px 3px #999999;
+         opacity:0.5;
+    }
+     #about .meadia{
+         padding:0px;
+         margin-top: 5px;
+         display:flex;
+         justify-content: center;
+    }
+     #about .meadia ul li{
+         display:inline-block;
+         margin-left:0px;
+    }
+     #about .meadia ul li a i{
+         border:1px solid #3db4d8;
+         font-size:18px;
+         padding:3px;
+         color:#3db4d8;
+    }
+}
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     #about .phone{
+        height:500px;
+        width:100%;
+    }
+     #about .phone img {
+        width:100%;
+         height:100%;
+         border-radius:50%;
+         padding:3px;
+         background-color:#f9f5f0;
+         box-shadow:0px 0px 5px 3px #999999;
+         opacity:0.5;
+    }
+     #about .meadia{
+        padding:5px;
+         margin-top: 5px;
+         display:flex;
+         justify-content: center;
+    }
+     #about .meadia ul li{
+         display:inline-block;
+         margin-left:0px;
+    }
+     #about .meadia ul li a i{
+         border:1px solid #3db4d8;
+         font-size:20px;
+         padding:5px;
+         color:#3db4d8;
+    }
+}
+/*******************end about*******************************/
+/*******************start skill*********************/
+ #skill {
+     width:100%;
+     height: auto;
+     background: url(../images/pic01.jpg) fixed no-repeat;
+     background-size: cover;
+}
+ #skill .back {
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0,0,0,0.2)
+}
+ #skill .container {
+    padding: 30px 0px;
+}
+ #skill span {
+    width: 100px;
+    height: 3px;
+    background-color: #3db4d8;
+    margin: 0px auto 3rem auto;
+}
+ #skill p{
+    font:500 20px  'Lobster', cursive;
+    text-transform:uppercase;
+}
+ .progress {
+    height: 1.5rem;
+    color:#3db4d8
+}
+ .col-sm-4{
+    width:30%;
+}
+ .col-sm-8{
+    width:70%;
+}
+ #skill .Dealing{
+    width:70%
+}
+ #skill .css3{
+    width:80%
+}
+ #skill .html5{
+    width:60%
+}
+ #skill .bootstrap{
+    width:45%
+}
+ #skill .jquery{
+    width: 75%;
+}
+ #skill .java_script{
+    width: 30%;
+}
+#skill .php{
+    width: 75%;
+}
+#skill .git{
+    width: 60%;
+}
+#skill .wordpress{
+    width: 50%;
+}
+
+ @media (max-width: 575.98px) {
+     .col-sm-4{
+        width:100%;
+    }
+     .col-sm-8{
+        width:100%;
+    }
+     #skill p{
+        font-size:18px;
+        font-weight:400px;
+        font-family: 'Lobster', cursive;
+         text-transform:uppercase;
+        margin-top:10px;
+    }
+}
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     #skill p{
+        font-size:18px;
+        font-weight:400px;
+        font-family: 'Lobster', cursive;
+         text-transform:uppercase;
+    }
+     .col-sm-4{
+        width:100%;
+    }
+     .col-sm-8{
+        width:100%;
+    }
+}
+/*******************end skill*********************/
+/*******************start gallary*********************/
+ #gallary {
+    width:100%;
+    height:auto;
+    padding-top:30px;
+}
+ #gallary h2{
+    margin-bottom: 0.5rem;
+}
+ #gallary span{
+    width:100px;
+    height:3px;
+    background-color:#3db4d8;
+    margin:0px auto 3rem auto;
+}
+ #gallary img{
+    margin-bottom:10px;
+    width:400px;
+    height:400px;
+}
+ @media (max-width: 575.98px) {
+     #gallary img{
+        margin-bottom:5px;
+        width:100%;
+        height:300px;
+    }
+}
+/*******************end gallary*********************/
+/***************start contact************************************/
+ #contact {
+     overflow:hidden;
+     text-align:center;
+     padding:60px 0px 30px 0px;
+     color:#777;
+     min-height:300px;
+     background-color:#f1f1f1;
+}
+ #contact i {
+    color: #3db4d8;
+}
+ #contact h1{
+    margin-bottom: 30px;
+}
+ #contact .form-control {
+    height:40px;
+     background-color:rgba(153,153,153,0.5);
+     color:#Fff;
+     border:none;
+}
+ #contact .btn{
+    margin: 0px;
+    height: 40px;
+    color:#fff;
+    background-color:#3db4d8;
+}
+/***************end contact************************************/
+/***************************footer**********************/
+ .footer .icons{
+    margin-bottom:10px;
+}
+ .footer .icons a{
+    text-decoration:none;
+    color:#f1f1f1;
+}
+ .footer .icons i{
+    padding:5px;
+    cursor:pointer;
+}
+ .footer{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    color: #CCC;
+    padding: 30px;
+}
